@@ -16,10 +16,10 @@
 
 ### Como Testar
 
-Para rodar os testes unitários via Docker, execute:
+Para rodar os testes unitários via Docker (sem necessidade de Go instalado localmente), execute:
 
 ```bash
-docker-compose run app go test ./...
+docker-compose run --rm test go test ./...
 ```
 
 ### Configuração
